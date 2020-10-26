@@ -13,6 +13,10 @@ function fetchSimpsonQuoteJSON() {
       <p>${characterDirection}</p>`;
       document.querySelector("#simpson").innerHTML = citation;
     });
+  return "coucou";
 }
 
 fetchSimpsonQuoteJSON();
+const tralala = document
+  .querySelector("#changeQuote")
+  .addEventListener("click", fetchSimpsonQuoteJSON);
